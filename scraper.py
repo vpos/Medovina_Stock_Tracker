@@ -14,7 +14,7 @@ try:
   # https://eshop.georgebee.com/keltska/ 
   medovinyEndpoint = 'https://eshop.georgebee.com/keltska/'
   unavailableMsg = 'Momentálně nedostupné'
-  availabilityFile = 'availability_status'
+  availabilityFile = '/root/Medovina_Stock_Tracker/availability_status'
   availabilityFromFile = Helpers.read_file(availabilityFile)
 
   currentDatetime = datetime.now().strftime("%d.%m.%Y %H:%M:%S")
