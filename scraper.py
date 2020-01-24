@@ -64,4 +64,4 @@ except:
       </body>
     </html>
     """
-  Notif.email_notif('pospisil.vaclav@gmail.com','','Medovina Scraper - New Error', errorMessage)
+  Notif.email_notif('pospisil.vaclav@gmail.com','Ondrasmusil23@seznam.cz','Medovina Scraper - New Error', errorMessage)
